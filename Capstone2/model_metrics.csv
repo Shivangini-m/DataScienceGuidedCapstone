@@ -1,0 +1,5 @@
+Model,ROC AUC,Recall,Precision,F1-Score,Comments
+Balanced Random Forest,0.975,0.91,0.08,0.15,"Best model - High Recall & ROC AUC, but low precision"
+Decision Tree,0.9421,0.94,0.09,0.16,"Decent model - High recall, but many false positives"
+Logistic Regression,0.5403,0.0,0.0,0.0,Worst - Completely failed to detect fraud
+Tuned Balanced RF,0.9521,0.82,0.06,0.12,Decent - But slightly worse than standard Balanced RF
