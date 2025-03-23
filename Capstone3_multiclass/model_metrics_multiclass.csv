@@ -1,0 +1,4 @@
+Model,Accuracy,Macro F1 Score,Key Parameters
+Random Forest,0.2561,0.1998,"n_estimators=100, max_depth=None, random_state=42"
+Logistic Regression,0.2911,0.1336,"solver='lbfgs', multi_class='ovr'"
+XGBoost,0.2739,0.1835,"use_label_encoder=False, eval_metric='mlogloss'"
